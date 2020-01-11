@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Spinner
+        android:id="@+id/spnDeviceNames"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btnConnectToDevice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONNECT TO DEVICE"/>
+    <TextView
+        android:id="@+id/tvData"
+        android:layout_width="match_parent"
+        android:layout_height="192dp"
+        android:text="Welcome\nMake sure the device to be connected is paired and visible\n" />
+
+
+    <Button
+        android:id="@+id/btnClickImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:contextClickable="false"
+        android:text="CLICK IMAGE" />
+</LinearLayout>
